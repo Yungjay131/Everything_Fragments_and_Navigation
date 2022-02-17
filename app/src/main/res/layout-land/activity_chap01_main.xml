@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book.chap_01.activities.Chap_01_MainActivity"
+    android:orientation="horizontal"
+    android:background="#555555">
+
+    <!--just a placeHolder in the layout for the actual Fragment
+       used in place of a FrameLayout or FragmentViewContainer because
+       for this app, its a fixed fragment here and cant be swapped out-->
+    <fragment
+        android:id="@+id/frag_holder_titles"
+        class="com.slyworks.everything_fragments_and_navigation.book.chap_01.fragments.Chap_01_TitlesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00550033"/>
+
+    <!--FrameLayout here because its going to involve swapping out
+        many Fragments, in a more modern app use @link{FragmentContainerView} -->
+    <FrameLayout
+        android:id="@+id/fragment_container_main"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+</LinearLayout>

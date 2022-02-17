@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_bottom_nav_bar_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/action_bottom_nav_bar_find_doctors"
+        android:title="Find Doctors"
+        android:icon="@drawable/ic_search"/>
+
+    <item
+        android:id="@+id/action_bottom_nav_bar_chat"
+        android:title="Messages"
+        android:icon="@drawable/ic_message"/>
+
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".book.chap_01.fragments.Chap_01_DetailsFragment"
+    android:orientation="vertical">
+
+  <ScrollView
+      android:id="@+id/scroller"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <TextView
+          android:id="@+id/tvDetails_frag_details"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+  </ScrollView>
+</LinearLayout>

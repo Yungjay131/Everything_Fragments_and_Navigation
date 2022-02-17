@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_nav_login"
+            android:title="Login Activity"/>
+
+        <item
+            android:id="@+id/action_nav_main"
+            android:title="Main Activity"/>
+
+        <item
+            android:id="@+id/action_nav_message"
+            android:title="Message Activity"/>
+
+        <item
+            android:id="@+id/action_nav_videocall"
+            android:title="VideoCall Activity"/>
+
+    </group>
+</menu>
